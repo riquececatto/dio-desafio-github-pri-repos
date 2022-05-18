@@ -1,0 +1,101 @@
+	## AJUDA ##
+
+-> git help
+
+==========================================
+
+	## CONFIGURAÇÃO ##
+
+-> git config --list
+
+-> git config --global user.name ""
+
+-> git config --global user.email ""
+
+==========================================
+
+	## CLONAR ##
+
+
+# SSH / HTML
+-> git clone 'ssh_do_repositório'
+-> git clone 'html_do_repositório'
+
+==========================================
+
+	## REPOSITÓRIO ##
+
+# criar repositório
+-> git init
+
+#verificar estado do arquivo/repositório
+-> git status
+
+#adcionar tudo | arquivo | diretório
+-> git add .
+-> git add nome_do_arquivo.ext
+-> git add meu_diretório
+
+==========================================
+
+	## COMMITAR ##
+
+#arquivo 1 ou + | informando mensagem
+-> git commit arquivo.txt
+-> git commit arquivo.txt outro_arq.txt
+-> git commit meuarquivo.txt -m "minha mensagem de commit"
+
+==========================================
+
+	## ENVIAR ARQUIVOS ##
+
+#primeiro push
+-> git push -u origin master
+
+#os demais pushes não precisam dessa informação
+-> git push
+
+==========================================
+
+	## ATUALIZAR ##
+
+#Atualizar repositório local de acordo com o repositório remoto
+
+#atualizar os arquivos no branch atual
+-> git pull
+
+#buscar as alterações, mas não aplica-las no branch atual
+-> git fetch
+
+
+==========================================
+
+	## REMOVER ##
+
+#arquivo | diretório
+-> git rm meu_arquivo.txt
+-> git rm -r diretorio
+
+==========================================
+
+	## HISTÓRICO
+
+-> git log
+
+#Exibir histórico com diff das duas últimas alterações
+
+-> git log -p -2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
