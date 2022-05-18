@@ -2,6 +2,6 @@
 Repositório do Projeto
 
 ## Link Úteis
-[Sintaxe Básica Markdonw](https://www.markdownguide.org/basic-syntax/)
+- [Sintaxe Básica Markdonw](https://www.markdownguide.org/basic-syntax/)
 
-[Cheat Sheet Emmets](https://docs.emmet.io/cheat-sheet/)
+- [Cheat Sheet Emmets](https://docs.emmet.io/cheat-sheet/)
